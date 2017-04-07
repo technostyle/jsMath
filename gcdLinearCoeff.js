@@ -1,7 +1,7 @@
 // gcd(a,b) = getGcdLinearCoefficients(a, b)[0] * a + getGcdLinearCoefficients(a, b)[1] * b;
 //   a b         gcd *          * gcd
 // a 1 0  -->  a  n  *   or   a *  n 
-// b 0 1       b  m  *		  b *  m
+// b 0 1       b  m  *	      b *  m
 function getGcdLinearCoefficients(a, b) {
 
 	var aStartCoefPair = [1, 0];
